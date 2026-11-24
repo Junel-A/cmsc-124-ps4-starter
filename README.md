@@ -1,5 +1,10 @@
 <!--no-pdf-->
-# CMSC 124 Problem Set 4 Starter
+# CMSC 124 Problem Set 4
+
+## Group Members
+
+1. **John Romson Erazo** – [@Apong516](https://github.com/Apong516)
+2. **Junel Arellano** – [@Junel-A](https://github.com/Junel-A)
 
 This repository holds the Prolog prediction corpus and the rule stubs for
 Problem Set 4. The assignment manual defines the work and the submission rules.
