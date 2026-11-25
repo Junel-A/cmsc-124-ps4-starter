@@ -33,7 +33,7 @@ TODO Apong
 
 ## Redo and Preserved Information
 
-TODO Junel
+A Redo line means Prolog came back to a goal that already exited and asked it for another answer. A returned frame in Activity 15 was gone, so nothing remembered how to try again. A Prolog goal still holds a choice point and itt also records which fact or clause was used, that others are untried, and which bindings were made since, so they can be undone. Line 7, Redo parent(tom,liz), shows this. Prolog undoes P=liz, and line 8 exits with parent(tom,bob). Line 13 does the same one level up. After answer 1, grandparent is redone, goes back into parent(bob,_) on line 14, and finds pat on line 15.
 
 ## Recursive Clause Ordering
 
